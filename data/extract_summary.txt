@@ -1,0 +1,63 @@
+OPTN KIDPAN_DATA -- Analytic Extract Summary
+================================================
+Source file:        KIDPAN_DATA.DAT
+Source size:        1.40 GB
+Rows read:          1,303,788
+Rows kept:          494,862
+Columns kept:       40
+Listing window:     2015-01-01 onward
+Cohort:             kidney-alone waitlist registrations (WL_ORG == KI)
+Output:             kidney_waitlist_analytic.csv  (92.9 MB)
+
+Outcome distribution
+------------------------------------------------
+  transplanted                 234,429  ( 47.4%)
+  still_waiting                103,300  ( 20.9%)
+  removed_administrative        45,332  (  9.2%)
+  transplanted_elsewhere        37,243  (  7.5%)
+  removed_too_sick              35,219  (  7.1%)
+  died                          34,524  (  7.0%)
+  unknown                        4,815  (  1.0%)
+
+Missingness by column (%)
+------------------------------------------------
+  WLKI                       100.00
+  MULTIORG                    97.60
+  A2A2B_ELIGIBILITY           92.27
+  COMPOSITE_DEATH_DATE        80.53
+  PTIME                       54.03
+  DIAG_KI                     53.66
+  DON_TY                      53.37
+  DONOR_ID                    53.37
+  TRR_ID_CODE                 53.37
+  PREV_TX                     53.37
+  TX_DATE                     53.37
+  PSTATUS                     53.37
+  ORGAN                       53.37
+  INIT_CPRA                   28.84
+  END_CPRA                    28.79
+  DIALYSIS_DATE               27.13
+  REM_CD                      20.87
+  DAYSWAIT_ALLOC               1.36
+  FUNC_STAT_TCR                0.80
+  BMI_TCR                      0.31
+  days_to_event                0.01
+  DAYSWAIT_CHRON               0.01
+  INIT_STAT                    0.00
+  censored                     0.00
+  event_transplant             0.00
+  event_adverse                0.00
+  outcome                      0.00
+  LISTING_CTR_CODE             0.00
+  GENDER                       0.00
+  ABO                          0.00
+  ON_DIALYSIS                  0.00
+  REGION                       0.00
+  END_STAT                     0.00
+  INIT_AGE                     0.00
+  END_DATE                     0.00
+  INIT_DATE                    0.00
+  ETHCAT                       0.00
+  PT_CODE                      0.00
+  WL_ID_CODE                   0.00
+  WL_ORG                       0.00
